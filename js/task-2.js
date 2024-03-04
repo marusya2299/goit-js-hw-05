@@ -1,6 +1,6 @@
 'use strict';
 
-const getUsersWithFriend = (users, friendName) => users.filter(value => value.friends.find(friend => friend ===friendName));
+const getUsersWithFriend = (users, friendName) => users.filter(value => value.friends.find(friend => friend === friendName));
 
 const allUsers = [
   {
